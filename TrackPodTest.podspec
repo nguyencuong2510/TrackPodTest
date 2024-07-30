@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.name         = "TrackPodTest"
   spec.static_framework = true
   spec.ios.deployment_target = '13.0'
-  spec.version      = "0.1.4"
+  spec.version      = "0.1.5"
   spec.summary      = "A short description of TrackPodTest."
   
   spec.description  = "this is desc"
@@ -33,7 +33,7 @@ Pod::Spec.new do |spec|
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.resources = 'TrackPodTest/**/*.{storyboard,xib, xcassets}'
+  spec.resources = 'TrackPodTest/**/*.{storyboard,xib,xcassets}'
   spec.resource_bundle = {'TrackPodTest' => ['TrackPodTest/**/*.{png,jpeg,jpg}'] }
 
 
