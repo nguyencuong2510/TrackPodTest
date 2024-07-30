@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		012249272C58984E00F9CDC9 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012249262C58984E00F9CDC9 /* Media.xcassets */; };
 		01B7E7522C58995000A4E374 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B7E7512C58995000A4E374 /* Logger.swift */; };
+		01B7E7602C58C73600A4E374 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B7E75F2C58C73600A4E374 /* image.png */; };
 		01B945DD2C58862200D73DD1 /* TrackPodTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B945DC2C58862200D73DD1 /* TrackPodTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01B945E62C58865D00D73DD1 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B945E52C58865D00D73DD1 /* HomeViewController.xib */; };
 		01B945E72C58865D00D73DD1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B945E42C58865D00D73DD1 /* HomeViewController.swift */; };
@@ -16,8 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		012249262C58984E00F9CDC9 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		01B7E7512C58995000A4E374 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		01B7E75F2C58C73600A4E374 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		01B945D92C58862200D73DD1 /* TrackPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TrackPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		01B945DC2C58862200D73DD1 /* TrackPodTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackPodTest.h; sourceTree = "<group>"; };
 		01B945E42C58865D00D73DD1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		012249252C58983500F9CDC9 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				012249262C58984E00F9CDC9 /* Media.xcassets */,
+				01B7E75F2C58C73600A4E374 /* image.png */,
 				01B7E7512C58995000A4E374 /* Logger.swift */,
 			);
 			path = resources;
@@ -174,8 +174,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				012249272C58984E00F9CDC9 /* Media.xcassets in Resources */,
 				01B945E62C58865D00D73DD1 /* HomeViewController.xib in Resources */,
+				01B7E7602C58C73600A4E374 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
