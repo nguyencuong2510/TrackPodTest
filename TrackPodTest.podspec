@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.name         = "TrackPodTest"
   spec.static_framework = true
   spec.ios.deployment_target = '13.0'
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.2"
   spec.summary      = "A short description of TrackPodTest."
   
   spec.description  = "this is desc"
