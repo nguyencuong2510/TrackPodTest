@@ -33,8 +33,8 @@ Pod::Spec.new do |spec|
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.resources = 'TrackPodTest/**/*.{storyboard,xib,xcassets}'
-  spec.resource_bundle = {'TrackPodTest' => ['TrackPodTest/**/*.{png,jpeg,jpg}'] }
+  spec.resources = 'TrackPodTest/**/*.{storyboard,xib,xcassets,png,jpeg,jpg}'
+  #spec.resource_bundle = {'TrackPodTest' => ['TrackPodTest/**/*.{xcassets,png,jpeg,jpg}'] }
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
