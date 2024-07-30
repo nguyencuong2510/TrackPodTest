@@ -43,6 +43,7 @@ Pod::Spec.new do |spec|
   spec.framework = "UIKit"
   spec.framework = "Foundation"
   spec.dependency 'Google-Mobile-Ads-SDK', '~> 11.7.0'
+  spec.dependency 'GoogleUserMessagingPlatform', '~> 2.5.0'
   
   spec.swift_version = "5.0"
 
